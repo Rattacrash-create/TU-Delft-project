@@ -279,5 +279,6 @@ print(f"Total gas tank mass: {(M_tot_2 + m_He):.3f} kg")
 # -------------------------------------------------------
 # Plotting
 # -------------------------------------------------------
-plot_orbits_periapsis_down(a_list, e_list) # generating figure with the orbits from the manouver
+plot_orbits_periapsis_down(a_list, e_list) # generating figure with the orbits from the maneuver
+
 
