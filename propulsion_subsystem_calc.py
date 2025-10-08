@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # --------------------------
 dt = 0.1  # s integration increment
 T = 25.0*2  # [N] two Aerojet GR-22 engines (used in the final design)
-I_sp = 257  # [s] specific impulse
+I_sp = 257  # [s] specific impulse (final monoprop design)
 v_exhaust = I_sp * 9.81  # [m/s]
 m_dot = T / v_exhaust    # [kg/s]
 
@@ -280,5 +280,6 @@ print(f"Total gas tank mass: {(M_tot_2 + m_He):.3f} kg")
 # Plotting
 # -------------------------------------------------------
 plot_orbits_periapsis_down(a_list, e_list) # generating figure with the orbits from the maneuver
+
 
 
